@@ -1,0 +1,30 @@
+{
+	"name": "chat-online",
+	"version": "1.0.0",
+	"description": "My superb Nuxt.js project",
+	"author": "Анатолий Васильев",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+		"build": "nuxt build",
+		"start": "cross-env NODE_ENV=production node server/index.js",
+		"generate": "nuxt generate",
+		"heroku-postbuild": "npm run build"
+	},
+	"dependencies": {
+		"consola": "latest",
+		"cross-env": "^5.2.0",
+		"express": "^4.16.4",
+		"nuxt": "^2.0.0",
+		"socket.io": "^2.3.0",
+		"uniqid": "^5.2.0",
+		"vue": "latest",
+		"vue-socket.io": "^3.0.7",
+		"vuex": "latest"
+	},
+	"devDependencies": {
+		"node-sass": "^4.13.0",
+		"nodemon": "^1.18.9",
+		"sass-loader": "^8.0.0"
+	}
+}
