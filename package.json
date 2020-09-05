@@ -23,7 +23,7 @@
 		"vuex": "latest"
 	},
 	"devDependencies": {
-		"node-sass": "^4.13.0",
+		"node-sass": "^4.13.1",
 		"nodemon": "^1.18.9",
 		"sass-loader": "^8.0.0"
 	}
